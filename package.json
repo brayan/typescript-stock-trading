@@ -1,0 +1,31 @@
+{
+  "name": "typescript-stock-trading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "watch": "tsc -w",
+    "server": "lite-server --baseDir=app",
+    "start": "concurrently \"npm run watch\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brayan/typescript-stock-trading.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brayan/typescript-stock-trading/issues"
+  },
+  "homepage": "https://github.com/brayan/typescript-stock-trading#readme",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "lite-server": "^2.5.3",
+    "typescript": "^3.5.2"
+  }
+}
