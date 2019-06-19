@@ -4,7 +4,7 @@ import { NegotiationRepository } from "../../domain/repository/NegotiationReposi
 import { NegotiationListView, MessageView } from "../view/index";
 import { domInject } from "../helper/decorator/domInject";
 import { QueryHelper } from "../helper/QueryHelper";
-import { throttle } from "../helper/throttle";
+import { throttle } from "../helper/decorator/throttle";
 
 export class NegotiationController {
 
